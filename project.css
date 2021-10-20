@@ -4,33 +4,23 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    
-    
-}
-.blast{
-    width: 100%;
-    background-color: #f5f5f5;
-}
-.container{
-    margin-left: 10%;
-    margin-top: 9%;
-    max-width: 600px;
-    width: 140%;
-    background: #fff;
-    padding: 25px 30px;  
-    height: 630px;
-    margin-bottom: 5%;   
-}
 
+
+.container{
+    background-color:#f4f4f4;
+}
+.right{
+   background-color: #feffff;
+    float: right; 
+    max-width: 56%;
+    padding: 25px 30px;  
+    height: 570px; 
+    margin-right: 3%;
+    margin-top: 1%;
+}
 .container .title{
-    margin-top: 10%;
-    font-size: 25px;
+    margin-top: 3%;
+    font-size: 20px;
     font-weight: 600;
     position: relative;
     color: #223c53;
@@ -42,53 +32,48 @@ body{
     justify-content: space-between;
     margin: 20px 0 12px 0;
     color: #3b4c58;
-   margin-left: 10%;
-    
-   
+    margin-left: 10%;
 }
 form .user-details .input-box{
-    margin-bottom: 15px;
-width:calc(100% /2 - 20px);
-font-size: 13px;
+    margin-bottom: 12px;
+width:calc(100% /2 - 11px);
+font-size: 11px;
 font-weight:500 ;
 }
- .user-details .input-box .details{
+.user-details .input-box .details{
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
+    
 }
 .user-details .input-box input{
     height: 30px;
-    width: 100%;
+    width: 80%;
     outline: none;
     border-radius: 5px;
     border: 1px solid #ccc;
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 13px;
 }
 .line1{
     font-weight: bold;
-    margin-top: 10%;
-    font-size: 19px;
+    margin-top: 8%;
+    font-size: 15px;
     color: #657c8f;
-    margin-left: 10%;
-    
-    
+    margin-left: 10%;  
 }
 .line2{
     margin-top: 5%;
     font-weight: 50;
-    font-size: 13px;
+    font-size: 11px;
     margin-top: 3%;
     margin-bottom: 3%;
     color: #91a0a6;
     margin-left: 10%;
 }
-
 .button{
     margin-top: 5%;
-    margin-left: 10%;
-    
+    margin-left: 10%;   
 }
 #button-edit{
     color: white;
@@ -100,10 +85,10 @@ font-weight:500 ;
     border-width: 0cm;
 }
 label{
-    font-size: 13px;
+    font-size: 11px;
     color: #89959f;
     margin-left:2%;
-    margin-top: -5%;
+    margin-top: -6%;
 }
 a{
     text-decoration: none;
@@ -111,26 +96,21 @@ a{
 }
 #already{
     margin-top: 3%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 550;
+    font-weight: 530;
     margin-left: 10%;
 }
-
-.container2 img{
-    margin-top: 8.7%;   
-    max-width: 600px;
-    width: 140%;
-    height: 682px;
-    padding: 25px 30px;
-    border-radius: 5px;  
-    margin-left: 8%;
-}
 .box{
- margin-left: 10%;
-    width: 15px;
-    height: 15px;
-    
+    margin-left: 10%;
+       width: 15px;
+       height: 15px; 
+   }
+
+img{
+    margin-top: 1%;
+    width:493.1px;
+    height: 571px; 
+    margin-left: 4%; 
+        
 }
-    
- 
