@@ -1,0 +1,126 @@
+
+body{
+    
+    background-color:#F4F4F4;
+    width: auto;
+    height: 650px;
+}
+
+
+.container{
+    background-color:#ffff;
+    margin-left: 0%;
+   margin-top: -4.7%;
+    max-width: 600px;
+    width: 145%;
+    padding: 25px 30px;  
+    height: 545px;
+     
+}
+
+.container .title{
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    color: #223c53;
+    margin-left: 10%;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    color: #3b4c58;
+   margin-left: 10%;  
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+width:calc(100% /2 - 20px);
+font-size: 11px;
+font-weight:500 ;
+}
+ .user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 12px;
+}
+.line1{
+    font-weight: bold;
+    margin-top: 4%;
+    font-size: 15px;
+    color: #657c8f;
+    margin-left: 10%;
+    
+    
+}
+.line2{
+    margin-top: 2%;
+    font-weight: 50;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #91a0a6;
+    margin-left: 10%;
+}
+
+.button{
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+#button-edit{
+    color: white;
+    border-radius:5px;
+    width: 30%;
+    height: 40px;
+    background-color: #0071ff;
+    outline: none;
+    border-width: 0cm;
+    font-size: 12px;
+}
+label{
+    font-size: 11px;
+    color: #89959f;
+    margin-left:2%;
+    margin-top: -10%;
+}
+a{
+    text-decoration: none;
+    color: #4381c1;
+    
+}
+#already{
+    margin-top: 3%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    margin-left: 10%;
+}
+.col-lg-5 img{
+    margin-top: -2%;
+    margin-left: 9%;
+    max-width: 550px;
+    padding: 27px;
+    width: 150%;
+    border-radius: 5px;
+    height: 600px; 
+}
+
+
+.box{
+ margin-left: 10%;
+    width: 15px;
+    height: 15px;   
+}
+
+    
