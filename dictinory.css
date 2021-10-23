@@ -86,7 +86,7 @@ a:hover{
 }
 .searchButton:hover{
     color:white;
-    background-color: #DB4437;
+    background-color: black;
     box-shadow: 0 4px 8px 0 rgba(255,0,0,0.4);
     margin-bottom: 20px;
 }
